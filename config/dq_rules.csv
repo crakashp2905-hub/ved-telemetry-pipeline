@@ -1,0 +1,9 @@
+column,min_value,max_value,description
+speed_kmh,0,200,Vehicle speed should be 0-200 km/h
+hv_soc_pct,0,100,Battery state of charge is a 0-100 percentage
+hv_voltage_v,0,500,HV pack voltage plausible range
+hv_current_a,-600,600,HV current plausible range
+rpm,0,8000,Engine RPM should be 0-8000
+oat_c,-50,60,Outside air temperature sane band
+fuel_rate_lph,0,100,Fuel rate cannot be negative
+abs_load_pct,0,100,Absolute engine load is a 0-100 percentage

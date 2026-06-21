@@ -1,0 +1,17 @@
+# Raw VED dataset — large + third-party; download separately (see README)
+VED_DynamicData_Part1/
+VED_DynamicData_Part2/
+VED_Static_Data_*.xlsx
+
+# Generated DuckDB warehouse, stray db, and spill dir (rebuilt by the pipeline)
+*.duckdb
+ved.db
+output/duck_tmp/
+output/powerbi/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
